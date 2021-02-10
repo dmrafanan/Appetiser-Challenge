@@ -1,4 +1,9 @@
 # Appetiser-Challenge
-Persistence:
-I used Keychain for the username and password, the safest way to save very sensitive information.
-I also used CoreData in order to save 
+Architecture:\
+I have used MVC design pattern\
+I used storyboards for the UI but I can do it programmatically as well.\
+
+Persistence:\
+I used Keychain for the username and password, the safest way to save very sensitive information.\
+I used CoreData in order to save Username with the corresponding that the user have wishlisted and also the last time the user visited the app. Meaning every user registered can have a different wishlisted tracks.\
+I used UserDefaults to store the NightMode preference of the user.\
