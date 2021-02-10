@@ -3,29 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0FAB64DF25D0DBC300343737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB64DE25D0DBC300343737 /* AppDelegate.swift */; };
+		0F1F09ED25D2EE33000065CF /* AppetiserChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F09EB25D2EE33000065CF /* AppetiserChallenge.xcdatamodeld */; };
+		0F1F09F325D2EE6C000065CF /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F09EF25D2EE6C000065CF /* User+CoreDataClass.swift */; };
+		0F1F09F525D2EE6C000065CF /* Track+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F09F125D2EE6C000065CF /* Track+CoreDataClass.swift */; };
+		0F1F0A1325D3966F000065CF /* TrackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44414125D2C47E00B0A326 /* TrackTableVC.swift */; };
+		0F1F0A1B25D3EBB4000065CF /* FavoritesTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F0A1625D3E9AF000065CF /* FavoritesTableVC.swift */; };
+		0F1F0A2B25D3F87C000065CF /* TrackDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F0A2625D3F733000065CF /* TrackDetailVC.swift */; };
+		0F1F0A4025D412FE000065CF /* SettingsTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F0A2D25D404C7000065CF /* SettingsTableVC.swift */; };
+		0F1F0A4425D41572000065CF /* NightModeTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1F0A3425D4088B000065CF /* NightModeTableVC.swift */; };
+		0F1F0A4625D41B13000065CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F1F0A4825D41B13000065CF /* Assets.xcassets */; };
+		0F1F0A4D25D44760000065CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB64DE25D0DBC300343737 /* AppDelegate.swift */; };
+		0F44413625D2BDAE00B0A326 /* TrackTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F44413525D2BDAE00B0A326 /* TrackTVCell.swift */; };
 		0FAB64E125D0DBC300343737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB64E025D0DBC300343737 /* SceneDelegate.swift */; };
-		0FAB64E325D0DBC300343737 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB64E225D0DBC300343737 /* ViewController.swift */; };
+		0FAB64E325D0DBC300343737 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB64E225D0DBC300343737 /* LoginVC.swift */; };
 		0FAB64E625D0DBC300343737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAB64E425D0DBC300343737 /* Main.storyboard */; };
-		0FAB64E925D0DBC300343737 /* AppetiserChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB64E725D0DBC300343737 /* AppetiserChallenge.xcdatamodeld */; };
-		0FAB64EB25D0DBC500343737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAB64EA25D0DBC500343737 /* Assets.xcassets */; };
 		0FAB64EE25D0DBC500343737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAB64EC25D0DBC500343737 /* LaunchScreen.storyboard */; };
+		0FAB64F725D0E25F00343737 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB64F625D0E25F00343737 /* NetworkManager.swift */; };
+		0FAB651225D26E0B00343737 /* Identifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB651125D26E0B00343737 /* Identifiers.swift */; };
+		0FAB651625D26EB800343737 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB651525D26EB800343737 /* RegisterVC.swift */; };
+		0FAB652825D2731A00343737 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAB652725D2731A00343737 /* ErrorHandler.swift */; };
+		3A112AEC2F55F88A9DC06307 /* Pods_AppetiserChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BF6DCCB19D8893489E3CA4C /* Pods_AppetiserChallenge.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1F09EC25D2EE33000065CF /* AppetiserChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppetiserChallenge.xcdatamodel; sourceTree = "<group>"; };
+		0F1F09EF25D2EE6C000065CF /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0F1F09F125D2EE6C000065CF /* Track+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Track+CoreDataClass.swift"; sourceTree = "<group>"; };
+		0F1F0A1625D3E9AF000065CF /* FavoritesTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableVC.swift; sourceTree = "<group>"; };
+		0F1F0A2625D3F733000065CF /* TrackDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailVC.swift; sourceTree = "<group>"; };
+		0F1F0A2D25D404C7000065CF /* SettingsTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableVC.swift; sourceTree = "<group>"; };
+		0F1F0A3425D4088B000065CF /* NightModeTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightModeTableVC.swift; sourceTree = "<group>"; };
+		0F1F0A4725D41B13000065CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Base; path = Base.lproj/Assets.xcassets; sourceTree = "<group>"; };
+		0F44413525D2BDAE00B0A326 /* TrackTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTVCell.swift; sourceTree = "<group>"; };
+		0F44414125D2C47E00B0A326 /* TrackTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableVC.swift; sourceTree = "<group>"; };
 		0FAB64DB25D0DBC300343737 /* AppetiserChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppetiserChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAB64DE25D0DBC300343737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FAB64E025D0DBC300343737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0FAB64E225D0DBC300343737 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FAB64E225D0DBC300343737 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		0FAB64E525D0DBC300343737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0FAB64E825D0DBC300343737 /* AppetiserChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppetiserChallenge.xcdatamodel; sourceTree = "<group>"; };
-		0FAB64EA25D0DBC500343737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FAB64ED25D0DBC500343737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FAB64EF25D0DBC500343737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FAB64F625D0E25F00343737 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0FAB651125D26E0B00343737 /* Identifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Identifiers.swift; sourceTree = "<group>"; };
+		0FAB651525D26EB800343737 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		0FAB652725D2731A00343737 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		7BF6DCCB19D8893489E3CA4C /* Pods_AppetiserChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppetiserChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93DCAA88C2C9BB9F370911E6 /* Pods-AppetiserChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetiserChallenge.debug.xcconfig"; path = "Target Support Files/Pods-AppetiserChallenge/Pods-AppetiserChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		AFEC5D9DBC66808C570E59DF /* Pods-AppetiserChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppetiserChallenge.release.xcconfig"; path = "Target Support Files/Pods-AppetiserChallenge/Pods-AppetiserChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A112AEC2F55F88A9DC06307 /* Pods_AppetiserChallenge.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F1F09FA25D2EEAA000065CF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F09EF25D2EE6C000065CF /* User+CoreDataClass.swift */,
+				0F1F09F125D2EE6C000065CF /* Track+CoreDataClass.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0F1F0A3E25D41278000065CF /* SettingsViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F1F0A2D25D404C7000065CF /* SettingsTableVC.swift */,
+				0F1F0A3425D4088B000065CF /* NightModeTableVC.swift */,
+			);
+			path = SettingsViewControllers;
+			sourceTree = "<group>";
+		};
+		0F44413925D2BDBA00B0A326 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0F44413525D2BDAE00B0A326 /* TrackTVCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		0F44413A25D2BDD700B0A326 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB64E225D0DBC300343737 /* LoginVC.swift */,
+				0FAB651525D26EB800343737 /* RegisterVC.swift */,
+				0F44414125D2C47E00B0A326 /* TrackTableVC.swift */,
+				0F1F0A1625D3E9AF000065CF /* FavoritesTableVC.swift */,
+				0F1F0A2625D3F733000065CF /* TrackDetailVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0F44413B25D2BE0900B0A326 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0FAB652725D2731A00343737 /* ErrorHandler.swift */,
+				0FAB651125D26E0B00343737 /* Identifiers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		0FAB64D225D0DBC300343737 = {
 			isa = PBXGroup;
 			children = (
 				0FAB64DD25D0DBC300343737 /* AppetiserChallenge */,
 				0FAB64DC25D0DBC300343737 /* Products */,
+				D57AD28BA4BFAD0D8C6904FB /* Pods */,
+				F3044BCE188D7EC1676B63C6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +136,38 @@
 		0FAB64DD25D0DBC300343737 /* AppetiserChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				0F1F09FA25D2EEAA000065CF /* Models */,
+				0F44413B25D2BE0900B0A326 /* Helpers */,
+				0F44413A25D2BDD700B0A326 /* ViewControllers */,
+				0F1F0A3E25D41278000065CF /* SettingsViewControllers */,
+				0F44413925D2BDBA00B0A326 /* Cell */,
 				0FAB64DE25D0DBC300343737 /* AppDelegate.swift */,
 				0FAB64E025D0DBC300343737 /* SceneDelegate.swift */,
-				0FAB64E225D0DBC300343737 /* ViewController.swift */,
+				0FAB64F625D0E25F00343737 /* NetworkManager.swift */,
 				0FAB64E425D0DBC300343737 /* Main.storyboard */,
-				0FAB64EA25D0DBC500343737 /* Assets.xcassets */,
+				0F1F0A4825D41B13000065CF /* Assets.xcassets */,
 				0FAB64EC25D0DBC500343737 /* LaunchScreen.storyboard */,
 				0FAB64EF25D0DBC500343737 /* Info.plist */,
-				0FAB64E725D0DBC300343737 /* AppetiserChallenge.xcdatamodeld */,
+				0F1F09EB25D2EE33000065CF /* AppetiserChallenge.xcdatamodeld */,
 			);
 			path = AppetiserChallenge;
+			sourceTree = "<group>";
+		};
+		D57AD28BA4BFAD0D8C6904FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93DCAA88C2C9BB9F370911E6 /* Pods-AppetiserChallenge.debug.xcconfig */,
+				AFEC5D9DBC66808C570E59DF /* Pods-AppetiserChallenge.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3044BCE188D7EC1676B63C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BF6DCCB19D8893489E3CA4C /* Pods_AppetiserChallenge.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FAB64F225D0DBC500343737 /* Build configuration list for PBXNativeTarget "AppetiserChallenge" */;
 			buildPhases = (
+				12C0FBA8430FF9384AF6E656 /* [CP] Check Pods Manifest.lock */,
 				0FAB64D725D0DBC300343737 /* Sources */,
 				0FAB64D825D0DBC300343737 /* Frameworks */,
 				0FAB64D925D0DBC300343737 /* Resources */,
+				52FD1E2167C68B77445192A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,28 +230,90 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FAB64EE25D0DBC500343737 /* LaunchScreen.storyboard in Resources */,
-				0FAB64EB25D0DBC500343737 /* Assets.xcassets in Resources */,
+				0F1F0A4625D41B13000065CF /* Assets.xcassets in Resources */,
 				0FAB64E625D0DBC300343737 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12C0FBA8430FF9384AF6E656 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppetiserChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52FD1E2167C68B77445192A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppetiserChallenge/Pods-AppetiserChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppetiserChallenge/Pods-AppetiserChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppetiserChallenge/Pods-AppetiserChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FAB64D725D0DBC300343737 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAB64E325D0DBC300343737 /* ViewController.swift in Sources */,
-				0FAB64DF25D0DBC300343737 /* AppDelegate.swift in Sources */,
+				0FAB64E325D0DBC300343737 /* LoginVC.swift in Sources */,
+				0F44413625D2BDAE00B0A326 /* TrackTVCell.swift in Sources */,
+				0F1F09F325D2EE6C000065CF /* User+CoreDataClass.swift in Sources */,
+				0F1F0A4025D412FE000065CF /* SettingsTableVC.swift in Sources */,
+				0FAB64F725D0E25F00343737 /* NetworkManager.swift in Sources */,
+				0F1F0A1325D3966F000065CF /* TrackTableVC.swift in Sources */,
+				0F1F0A4425D41572000065CF /* NightModeTableVC.swift in Sources */,
+				0F1F09ED25D2EE33000065CF /* AppetiserChallenge.xcdatamodeld in Sources */,
+				0F1F0A1B25D3EBB4000065CF /* FavoritesTableVC.swift in Sources */,
 				0FAB64E125D0DBC300343737 /* SceneDelegate.swift in Sources */,
-				0FAB64E925D0DBC300343737 /* AppetiserChallenge.xcdatamodeld in Sources */,
+				0FAB651625D26EB800343737 /* RegisterVC.swift in Sources */,
+				0FAB652825D2731A00343737 /* ErrorHandler.swift in Sources */,
+				0FAB651225D26E0B00343737 /* Identifiers.swift in Sources */,
+				0F1F09F525D2EE6C000065CF /* Track+CoreDataClass.swift in Sources */,
+				0F1F0A4D25D44760000065CF /* AppDelegate.swift in Sources */,
+				0F1F0A2B25D3F87C000065CF /* TrackDetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		0F1F0A4825D41B13000065CF /* Assets.xcassets */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F1F0A4725D41B13000065CF /* Base */,
+			);
+			name = Assets.xcassets;
+			sourceTree = "<group>";
+		};
 		0FAB64E425D0DBC300343737 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -287,6 +451,7 @@
 		};
 		0FAB64F325D0DBC500343737 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93DCAA88C2C9BB9F370911E6 /* Pods-AppetiserChallenge.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,6 +471,7 @@
 		};
 		0FAB64F425D0DBC500343737 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFEC5D9DBC66808C570E59DF /* Pods-AppetiserChallenge.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -347,12 +513,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0FAB64E725D0DBC300343737 /* AppetiserChallenge.xcdatamodeld */ = {
+		0F1F09EB25D2EE33000065CF /* AppetiserChallenge.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0FAB64E825D0DBC300343737 /* AppetiserChallenge.xcdatamodel */,
+				0F1F09EC25D2EE33000065CF /* AppetiserChallenge.xcdatamodel */,
 			);
-			currentVersion = 0FAB64E825D0DBC300343737 /* AppetiserChallenge.xcdatamodel */;
+			currentVersion = 0F1F09EC25D2EE33000065CF /* AppetiserChallenge.xcdatamodel */;
 			path = AppetiserChallenge.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
